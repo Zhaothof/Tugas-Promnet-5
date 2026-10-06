@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8efe3;
+    margin: 0;
+    padding: 20px;
+}
+
+.wrapper {
+    max-width: 450px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border: 2px solid #3d5a40;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #3d5a40;
+    margin: 0 0 15px;
+}
+
+.stats {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.stats td {
+    border: 1px solid #3d5a40;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.stats tr:first-child td {
+    background-color: #cfdcc8;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #3d5a40;
+    font-size: 15px;
+}
+
+.form button {
+    padding: 8px 14px;
+    background-color: #3d5a40;
+    color: #ffffff;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #2b402d;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 4px;
+    border-bottom: 1px solid #cccccc;
+    font-size: 16px;
+}
+
+li .teks {
+    flex: 1;
+    cursor: pointer;
+}
+
+li.completed .teks {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+li .hapus {
+    background-color: #b94a48;
+    color: #ffffff;
+    border: none;
+    padding: 4px 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+li .hapus:hover {
+    background-color: #8f3836;
+}

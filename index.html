@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Tugas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Daftar Tugas</h1>
+
+        <table class="stats">
+            <tr>
+                <td>Total Tugas</td>
+                <td>Selesai</td>
+                <td>Belum Selesai</td>
+            </tr>
+            <tr>
+                <td id="totalTugas">0</td>
+                <td id="tugasSelesai">0</td>
+                <td id="tugasBelum">0</td>
+            </tr>
+        </table>
+
+        <div class="form">
+            <input type="text" id="inputTask" placeholder="Ketik tugas di sini...">
+            <button id="tombol">Tambah</button>
+        </div>
+
+        <ul id="listContainer"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
